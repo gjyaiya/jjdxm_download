@@ -1,4 +1,4 @@
-package com.dou361.test;
+package com.dou361.jjdxm_download;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

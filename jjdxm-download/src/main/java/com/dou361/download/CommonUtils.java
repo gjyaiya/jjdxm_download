@@ -1,4 +1,4 @@
-package src.com.dou361.download;
+package com.dou361.download;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
@@ -8,22 +8,22 @@ import android.os.StatFs;
 
 /**
  * ========================================
- * <p/>
+ * <p>
  * 版 权：深圳市晶网电子科技有限公司 版权所有 （C） 2015
- * <p/>
+ * <p>
  * 作 者：陈冠明
- * <p/>
+ * <p>
  * 个人网站：http://www.dou361.com
- * <p/>
+ * <p>
  * 版 本：1.0
- * <p/>
+ * <p>
  * 创建日期：2015-10-6 下午3:21:22
- * <p/>
+ * <p>
  * 描 述：公共类
- * <p/>
- * <p/>
+ * <p>
+ * <p>
  * 修订历史：
- * <p/>
+ * <p>
  * ========================================
  */
 public class CommonUtils {

@@ -1,4 +1,4 @@
-package src.com.dou361.download;
+package com.dou361.download;
 
 import java.io.Serializable;
 

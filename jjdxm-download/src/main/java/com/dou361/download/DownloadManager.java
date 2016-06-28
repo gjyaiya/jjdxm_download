@@ -1,4 +1,4 @@
-package src.com.dou361.download;
+package com.dou361.download;
 
 import java.io.File;
 import java.io.IOException;
@@ -17,22 +17,22 @@ import android.os.Message;
 
 /**
  * ========================================
- * <p/>
+ * <p>
  * 版 权：深圳市晶网电子科技有限公司 版权所有 （C） 2015
- * <p/>
+ * <p>
  * 作 者：陈冠明
- * <p/>
+ * <p>
  * 个人网站：http://www.dou361.com
- * <p/>
+ * <p>
  * 版 本：1.0
- * <p/>
+ * <p>
  * 创建日期：2015-10-6 下午3:23:59
- * <p/>
+ * <p>
  * 描 述：下载管理
- * <p/>
- * <p/>
+ * <p>
+ * <p>
  * 修订历史：
- * <p/>
+ * <p>
  * ========================================
  */
 public class DownloadManager {
@@ -84,8 +84,8 @@ public class DownloadManager {
 					m.what = ParamsManager.State_DOWNLOAD;
 					m.obj = mgr.getDownloadUrl();
 					Bundle bundle = new Bundle();
-					bundle.putString("percent", "" + mgr.getDownloadPercent());
-					bundle.putString("loadSpeed", "" + mgr.getDownloadSpeed());
+					bundle.putLong("percent", mgr.getDownloadPercent());
+					bundle.putLong("loadSpeed", mgr.getDownloadSpeed());
 					m.setData(bundle);
 					handler.sendMessage(m);
 				}
@@ -162,6 +162,10 @@ public class DownloadManager {
 		downPath = path;
 	}
 
+	public String getDownPath(){
+		return downPath;
+	}
+
 	/**
 	 * 开启下载
 	 * 
@@ -210,8 +214,6 @@ public class DownloadManager {
 
 	/**
 	 * 删除指定下载
-	 * 
-	 * @param url
 	 */
 	public void deleteDownload(String url) {
 		SqliteManager.getInstance(context).deleteByUrl(url);
@@ -223,8 +225,6 @@ public class DownloadManager {
 
 	/**
 	 * 删除所有下载
-	 * 
-	 * @param url
 	 */
 	public void deleteAllDownload() {
 		Iterator it = taskmap.keySet().iterator();

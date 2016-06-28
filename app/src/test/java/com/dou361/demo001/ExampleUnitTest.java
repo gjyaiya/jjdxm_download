@@ -1,4 +1,4 @@
-package com.dou361.test;
+package com.dou361.jjdxm_download;
 
 import org.junit.Test;
 
