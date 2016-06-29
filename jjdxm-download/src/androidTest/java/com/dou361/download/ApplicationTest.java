@@ -1,4 +1,4 @@
-package com.dou361.library;
+package com.dou361.download;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

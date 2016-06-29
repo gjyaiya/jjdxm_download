@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jjdxm-download/library.iml" filepath="$PROJECT_DIR$/jjdxm-download/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jjdxm-download/jjdxm-download.iml" filepath="$PROJECT_DIR$/jjdxm-download/jjdxm-download.iml" />
       <module fileurl="file://$PROJECT_DIR$/jjdxm_download.iml" filepath="$PROJECT_DIR$/jjdxm_download.iml" />
     </modules>
   </component>
