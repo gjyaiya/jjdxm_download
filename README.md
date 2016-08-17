@@ -14,6 +14,8 @@
 
 ## Introduction ##
 
+当前项目是一个支持断点续传功能的下载类库，支持多文件下载，记忆下载等
+
 ## Features ##
 
 ## Screenshots ##
