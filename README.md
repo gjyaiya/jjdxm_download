@@ -40,9 +40,9 @@ or Gradle:
 
 历史版本：
 
-	compile 'com.dou361.periscope:jjdxm-download:1.0.0'
+	compile 'com.dou361.download:jjdxm-download:1.0.0'
 
-jjdxm-periscope requires at minimum Java 15 or Android 4.0.
+jjdxm-download requires at minimum Java 15 or Android 4.0.
 
 
 [架包的打包引用以及冲突解决][jaraar]
