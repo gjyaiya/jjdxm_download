@@ -47,5 +47,7 @@ public class ParamsManager {
     public final static int State_FINISH = 3;
     /** 等待状态 */
     public final static int State_WAIT = 4;
+    /** 删除状态 */
+    public final static int State_DELETE = 5;
 
 }
