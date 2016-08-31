@@ -9,7 +9,7 @@ ext {
     jjdxm_groupId = 'com.dou361.download'
     jjdxm_artifactId = 'jjdxm-download'
 
-    jjdxm_libraryVersion = '1.0.0'
+    jjdxm_libraryVersion = '1.0.2'
     jjdxm_libraryName = 'jjdxm-download'
     jjdxm_libraryDescription = 'this is a download download of the application'
 
@@ -40,8 +40,13 @@ android {
     }
     buildTypes {
         release {
+            //混淆
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            //Zipalign优化
+            zipAlignEnabled true
+            // 移除无用的resource文件
+            shrinkResources true
+            consumerProguardFiles 'proguard-rules.pro'
         }
     }
 }
