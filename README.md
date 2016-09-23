@@ -42,9 +42,12 @@ or Gradle:
 
 历史版本：
 
+	compile 'com.dou361.download:jjdxm-download:1.0.3'
+	compile 'com.dou361.download:jjdxm-download:1.0.2'
+	compile 'com.dou361.download:jjdxm-download:1.0.1'
 	compile 'com.dou361.download:jjdxm-download:1.0.0'
 
-jjdxm-download requires at minimum Java 15 or Android 4.0.
+jjdxm-download requires at minimum Java 9 or Android 2.3.
 
 
 [架包的打包引用以及冲突解决][jaraar]
