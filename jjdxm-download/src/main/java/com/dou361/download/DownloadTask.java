@@ -255,8 +255,9 @@ public class DownloadTask extends AsyncTask<Void, Integer, Integer> {
         }
     }
 
-    private void setDefaultProperties() throws IOException {
+    protected void setDefaultProperties() throws IOException {
         urlConn.setRequestProperty("Content-Type", "text/html; charset=UTF-8");
+        urlConn.setRequestProperty("Accept-Encoding", "identity");
         urlConn.setRequestMethod("GET");
         urlConn.setInstanceFollowRedirects(true);
         urlConn.setConnectTimeout(10000);
